@@ -1,0 +1,5 @@
+let names = ["Dhanush", "Naveen", 'Saurabh', 'Shyam', "Ganesh"];
+let reversedNames = names.reverse();
+
+console.log(reversedNames);
+
