@@ -1,0 +1,38 @@
+let countries = [
+  {
+    name: "India",
+    capital: "Delhi",
+    population: 1700,
+  },
+  {
+    name: "Bangladesh",
+    capital: "Dhaka",
+    population: 8000,
+  },
+  {
+    name: "Pakistan",
+    capital: "Islamabad",
+    population: 1500,
+  },
+  {
+    name: "Nepal",
+    capital: "Kathmandu",
+    population: 2000,
+  },
+  {
+    name: "China",
+    capital: "Beijing",
+    population: 9000,
+  },
+  {
+    name: "Bhutan",
+    capital: "Thimphu",
+    population: 1000,
+  },
+];
+
+for (let a = 0; a < countries.length; a++) {
+  if (countries[a].population < 2000) {
+    console.log(countries[a].name);
+  }
+}
